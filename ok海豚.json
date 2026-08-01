@@ -88,6 +88,18 @@
 			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/油管.py"
 		},
 		{
+			"key": "视觉影院",
+			"name": "🐬视觉影院.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/视觉影院.py"
+		},
+		{
+			"key": "袋鼠影视",
+			"name": "🐬袋鼠影视.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/袋鼠影视.py"
+		},
+		{
 			"key": "4K影视",
 			"name": "🐬4K影视.py",
 			"type": 3,
@@ -576,6 +588,18 @@
       ]
     },
 		{
+			"key": "悟圣短剧",
+			"name": "🐬悟圣短剧.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/悟圣短剧.py"
+		},
+		{
+			"key": "喜福网",
+			"name": "🐬喜福短剧.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/喜福短剧.py"
+		},
+		{
 			"key": "smdj",
 			"name": "🐬星芽短剧.py",
 			"type": 3,
@@ -749,6 +773,42 @@
 			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/蜜桃视频.py"
 		},
 		{
+			"key": "午夜福利",
+			"name": "🐬午夜福利.py(羊壳观看)｜🔞",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/午夜福利羊壳版.py"
+		},
+		{
+			"key": "大屌视频",
+			"name": "🐬大屌视频.py｜🔞",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/大屌视频.py"
+		},
+		{
+			"key": "高端视频",
+			"name": "🐬高端视频.py｜🔞",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/高端视频.py"
+		},
+		{
+			"key": "猫咪AV",
+			"name": "🐬猫咪AV.py｜🔞",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/猫咪AV.py"
+		},
+		{
+			"key": "妈妈自拍",
+			"name": "🐬妈妈自拍.py｜🔞",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/妈妈自拍.py"
+		},
+		{
+          "key": "catemby",
+          "name": "🐬catemby.py 磁力观看🔞",
+          "type": 3,
+          "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/catemby.py"
+        },
+		{
           "key": "教授",
           "name": "🐬教授.py🔞",
           "type": 3,
@@ -850,6 +910,12 @@
 			"name": "🐬黄色仓库.py｜🔞",
 			"type": 3,
 			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/黄色仓库.py"
+		},
+		{
+			"key": "黄色仓库动态版",
+			"name": "🐬黄色仓库动态版.py｜🔞",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/黄色仓库动态版.py"
 		},
 		{
 			"key": "wyt",
@@ -1309,12 +1375,6 @@
             "ua": "okhttp",
             "url": "https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt"
         },
-        {
-            "name": "🐬俄罗斯源 有🔞",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://ilook.epg.one/EDTZN7ANS84N86"
-        },
        {
             "name": "🐬飞扬源",
             "type": 0,
@@ -1350,12 +1410,6 @@
             "type": 0,
             "ua": "okhttp",
             "url": "http://4gtv.cnlive.club/4gtv.m3u"
-        },
-	    {
-            "name": "🐬4GTV(梯子任何节点)1080p",
-            "type": 0,
-            "ua": "okhttp",
-            "url": "https://ha.msbot.dpdns.org/4gtv_api.php"
         },
         {
             "name": "🐬安博(梯子)卡顿 有🔞",
