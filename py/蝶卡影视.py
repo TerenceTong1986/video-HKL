@@ -15,7 +15,7 @@ class Spider(BaseSpider):
     def __init__(self):
         # __init__ 只做本地初始化，禁止网络请求，保证壳子首页秒出 class。
         self.extend = ""
-        self.host = "https://www.diekawang.com"
+        self.host = "http://www.diekawang.com"
         self.classes = [
             {"type_id": "1", "type_name": "电影"},
             {"type_id": "2", "type_name": "电视剧"},
@@ -141,7 +141,7 @@ class Spider(BaseSpider):
         if not url:
             return ""
         if url.startswith("//"):
-            return "https:" + url
+            return "http:" + url
         if url.startswith("http"):
             return url
         return urljoin(self.host, url)
