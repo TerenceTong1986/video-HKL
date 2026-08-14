@@ -19,11 +19,11 @@ class Spider(Spider):
 
     def __init__(self):
         super().__init__()
-        self.site = 'https://103.51.147.112:51120'
+        self.site = 'http://103.51.147.112:51120'
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Referer': 'https://103.51.147.112:51120/'
+            'Referer': 'http://103.51.147.112:51120/'
         })
         self.cateManual = {
             '电影': '1',
@@ -92,7 +92,7 @@ class Spider(Spider):
                         pic = src
                         break
                 if pic and pic.startswith('/'):
-                    pic = 'https://vres.zyxpedu.com' + pic
+                    pic = 'http://vres.zyxpedu.com' + pic
 
                 # 备注
                 note = ''
@@ -146,7 +146,7 @@ class Spider(Spider):
                         pic = src
                         break
                 if pic and pic.startswith('/'):
-                    pic = 'https://vres.zyxpedu.com' + pic
+                    pic = 'http://vres.zyxpedu.com' + pic
 
                 # 备注
                 note = ''
@@ -196,7 +196,7 @@ class Spider(Spider):
             if og_img:
                 pic = og_img.group(1)
                 if pic.startswith('/'):
-                    pic = 'https://vres.zyxpedu.com' + pic
+                    pic = 'http://vres.zyxpedu.com' + pic
 
             # 简介：从meta description提取
             desc = ''
@@ -375,7 +375,7 @@ class Spider(Spider):
                         pic = src
                         break
                 if pic and pic.startswith('/'):
-                    pic = 'https://vres.zyxpedu.com' + pic
+                    pic = 'http://vres.zyxpedu.com' + pic
 
                 if title:
                     result['list'].append({
