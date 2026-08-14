@@ -291,7 +291,7 @@ class Spider(Spider):
                     break
             
             if not video_url:
-                all_urls = re.findall(r'https?://[^\s"\'<>]+\.(m3u8|mp4)[^\s"\'<>]*', r.text)
+                all_urls = re.findall(r'http?://[^\s"\'<>]+\.(m3u8|mp4)[^\s"\'<>]*', r.text)
                 if all_urls:
                     for url_match in all_urls:
                         u = url_match[0] if isinstance(url_match, tuple) else url_match
