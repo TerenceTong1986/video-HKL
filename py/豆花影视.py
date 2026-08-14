@@ -23,8 +23,8 @@ from base.spider import Spider
 class Spider(Spider):
     def __init__(self):
         self.name = "dhys"
-        self.host = "https://dhvideo.cc"
-        self.cdn = "https://pic2.tupian.click"
+        self.host = "http://dhvideo.cc"
+        self.cdn = "http://pic2.tupian.click"
         self.sion_id = "6a7021e3d742658065a970b4"
         self.header = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -67,7 +67,7 @@ class Spider(Spider):
         if not url:
             return ''
         if url.startswith('//'):
-            return 'https:' + url
+            return 'http:' + url
         if url.startswith('/'):
             return self.host + url
         return url
@@ -77,7 +77,7 @@ class Spider(Spider):
         if not url:
             return ''
         if url.startswith('//'):
-            return 'https:' + url
+            return 'http:' + url
         if url.startswith('/'):
             return self.cdn + url
         return url
@@ -682,7 +682,7 @@ class Spider(Spider):
 
             # 兜底1: 直接查找 m3u8 链接
             m3u8_match = re.search(
-                r'["\'](https?://[^"\'\s<>]+\.m3u8[^"\'\s<>]*)["\']',
+                r'["\'](http?://[^"\'\s<>]+\.m3u8[^"\'\s<>]*)["\']',
                 html
             )
             if m3u8_match:
@@ -694,7 +694,7 @@ class Spider(Spider):
 
             # 兜底2: 直接查找 mp4/flv/ts/mkv 链接
             mp4_match = re.search(
-                r'["\'](https?://[^"\'\s<>]+\.(?:mp4|flv|ts|mkv)[^"\'\s<>]*)["\']',
+                r'["\'](http?://[^"\'\s<>]+\.(?:mp4|flv|ts|mkv)[^"\'\s<>]*)["\']',
                 html
             )
             if mp4_match:
